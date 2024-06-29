@@ -4,7 +4,7 @@
 --heading-h2: rgb(222, 164, 98);
 --text1: rgb(170, 170, 170);
 --text2: rgb(255, 255, 255);
---background: rgb(4, 4, 4);    
+--main-background: rgb(4, 4, 4);    
 }
 
 
@@ -69,3 +69,99 @@
     font-style: italic;
   }
   
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--main-background);
+}
+
+#header-img {
+    width: 60px;
+    object-fit: contain;
+}
+/*Navigation*/
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--background);
+    padding: 0 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text);
+    padding: 0 10px;
+    font-family: "Roboto Mono";
+}
+
+.nav-links :hover {
+    color: var(--header1-h1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.the-product {
+  font-size: 25px;
+  margin-left: 10px;
+  font-weight: 300;
+  font-family: "Roboto Mono";
+  color: var(--fonts);
+}
+
+section::before{
+  display: block;
+  content: " ";
+  margin-top: -130px;
+  height: 100px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+section {
+  margin: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Lato";
+  text-align: center;
+  font-size: 30px;
+  color: var(--heading-h1);
+}
+
+h2 {
+  font-family: 'Lato';
+  margin-bottom: 10px;
+  color: var(--heading-h2);
+}
+
+#about {
+  background-image: url(images/background-1.jpg);
+  background-size: cover;
+  font-family: "Lato";
+  color: var(--text1);
+  text-align: center;
+  justify-content: center;
+  padding: 0px 20px 0px 20px;
+}
+
+.about {
+  margin: 20px 20px 30px 20px;
+}
