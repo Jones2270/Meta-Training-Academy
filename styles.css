@@ -159,7 +159,7 @@ body {
   font-size: 25px;
   margin-left: 10px;
   font-weight: 300;
-  font-family: "Roboto Mono";
+  font-family: "Lato";
   color: var(--fonts);
 }
 
@@ -222,19 +222,19 @@ h2 {
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid var(--text);
+  border: 1px solid var(--text1);
   border-radius: 10px;
 }
 
 .product1 {
-  background-image: url(images/peppermint.png);
+  background-image: url(images/mental-health.jpg);
   background-color: #FEEFDD;
 }
 
 .card {
-  background-color: var(--background-pale);
+  background-color: var(--color1);
   border-radius: 10px;
-  border: 1px solid var(--text);
+  border: 1px solid var(--text1);
   width: 100%;
   margin: auto;
   margin-bottom: 20px;
@@ -248,9 +248,9 @@ h2 {
 }
 
 .content {
-  font-family: 'gill sans', sans-serif;
+  font-family: "Lato";
   font-size: larger;
-  color: var(--text);
+  color: var(--text1);
   margin-bottom: 10px;
   min-width: 60px;
 }
@@ -276,34 +276,35 @@ h2 {
 
 
 .author {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Lato";
   letter-spacing: 5px;
   color: var(--button-text);
   text-transform: uppercase;
 }
 
 .header {
-  font-family:  Arial, sans-serif;
-  color: var(--header1-h1);
+  font-family: "Lato";
+  color: var(--heading-h1);
   margin-bottom: 5px;
 }
 
 .add {
-  background-color: var(--hover);
+  background-color: var(--color2);
   cursor: pointer;
   padding: 15px;
   border: none;
   border-radius: 10px;
   width: 100%;
-  color: var(--text);
-  font-family: 'gill sans', sans-serif;
+  color: var(--text1);
+  font-family: "Lato";
   font-weight: 800;
   font-size: 15px;
   margin-bottom: 10px;
 }
 
 .add:hover {
-  background-color: var(--button-hover);
+  background-color: var(--text1);
+  color: var(--color1);
 }
 
 .add:active {
