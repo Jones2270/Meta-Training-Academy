@@ -328,7 +328,7 @@ h2 {
 
 #contact {
   color: var(--text);
-  font-family: "quicksand";
+  font-family: "Lato";
 }
 
 #contact h1 {
@@ -336,10 +336,9 @@ h2 {
 }
 
 #contact .quote {
-  color: var(--text);
+  color: var(--heading-h1);
   font-size: 25px;
   font-style: italic;
-  color: var(--text);
 }
 
 #contact .social-medias {
@@ -359,7 +358,7 @@ h2 {
   align-items: center;
   margin: 20px;
   font-size: 22px;
-  font-family: "quicksand";
+  font-family: "Lato";
 }
 
 #contact .social-media:hover {
