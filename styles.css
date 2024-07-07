@@ -245,6 +245,18 @@ h2 {
   background-image: url(images/mental-health.jpg);
 }
 
+.product2 {
+  background-image: url(images/manualhandling.jpg);
+}
+
+.product3 {
+  background-image: url(images/FAW.jpg);
+}
+
+.product4 {
+  background-image: url(images/Smoking.jpg);
+}
+
 .card {
   background-color: var(--color1);
   border-radius: 10px;
