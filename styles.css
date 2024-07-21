@@ -404,7 +404,7 @@ footer {
 /* About us */
 
 #about-us {
-  background-image: url(images/background-1.jpg);
+  background-image: url(images/background.jpg);
   background-size: cover;
   font-family: "Lato";
   color: var(--text1);
@@ -412,6 +412,19 @@ footer {
   justify-content: center;
   padding: 0px 20px 0px 20px;
 }
+
+
+#MHcourse-intro {
+  background-image: url(images/mental-health.jpg);
+  background-size: cover;
+  margin: 5px 20px 30px 20px;
+  font-family: "Lato";
+  color: var(--text1);
+  text-align: center;
+  justify-content: center;
+  padding: 5px 20px 0px 20px;
+}
+
 
 @media only screen and (min-width: 600px) {
   #nav-bar {
