@@ -187,7 +187,7 @@ section {
 h1 {
   font-family: "Lato";
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   color: var(--heading-h1);
 }
 
@@ -221,6 +221,7 @@ h2 {
   font-family: "Lato";
   color: var(--text2);
   text-align: center;
+  font-size: large;
   justify-content: center;
   padding: 0px 20px 30px 20px;
 }
