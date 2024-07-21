@@ -449,6 +449,26 @@ ul {
   text-align: left;
 }
 
+table, th, td {
+  border: 1px solid;
+  color: var(--text1);
+  font-family: "Lato";
+  margin: 30px;
+  width: auto;
+  min-width: 35%;
+}
+
+#prices {
+  font-family: "Lato";
+  color: var(--text1);
+  text-align: left;
+  margin: 50px;
+}
+
+#nav-button .add {
+  width: fit-content;
+}
+
 /* end course pages*/
 
 
