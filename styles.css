@@ -238,7 +238,7 @@ h2 {
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid var(--text1);
+  border: 2px solid var(--text1);
   border-radius: 10px;
 }
 
@@ -498,7 +498,7 @@ table, th, td {
       padding: 20px;
   }
     .product-image {
-      height: 550px;
+      height: 650px;
       border-radius: 10px 0 0 10px;
   }
 }
