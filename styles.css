@@ -472,6 +472,24 @@ footer {
   font-weight: 800;
 }
 
+#smokecourse-intro {
+  background-image: url(images/Smoking.jpg);
+  background-size: cover;
+  margin: 20px 20px 30px 20px;
+  font-family: "Lato";
+  color: var(--text1);
+  text-align: center;
+  justify-content: center;
+  padding: 40px 20px 40px 20px;
+  min-height: 150px;
+}
+
+#smokecourse-intro h1 {
+  font-size: 50px;
+  color: var(--text2);
+  font-weight: 800;
+}
+
 #course-content {
   font-family: "Lato";
   color: var(--text1);
