@@ -482,7 +482,7 @@ footer {
 }
 
 ul {
-  list-style-position: inside;
+  list-style-position: outside;
   text-align: left;
 }
 
