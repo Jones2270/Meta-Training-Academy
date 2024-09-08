@@ -315,6 +315,10 @@ h2 {
   background-image: url(images/Smoking.jpg);
 }
 
+.product5 {
+  background-image: url(images/personalTrain.jpeg);
+}
+
 .card {
   background-color: var(--color1);
   border-radius: 10px;
@@ -542,6 +546,24 @@ footer {
 }
 
 #smokecourse-intro h1 {
+  font-size: 50px;
+  color: var(--text2);
+  font-weight: 800;
+}
+
+#PTcourse-intro {
+  background-image: url(images/personalTrain.jpeg);
+  background-size: cover;
+  margin: 20px 20px 30px 20px;
+  font-family: "Lato";
+  color: var(--text1);
+  text-align: center;
+  justify-content: center;
+  padding: 40px 20px 40px 20px;
+  min-height: 150px;
+}
+
+#PTcourse-intro h1 {
   font-size: 50px;
   color: var(--text2);
   font-weight: 800;
