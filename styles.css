@@ -319,6 +319,10 @@ h2 {
   background-image: url(images/personalTrain.jpeg);
 }
 
+.product6 {
+  background-image: url(images/gymInstructor.jpg);
+}
+
 .card {
   background-color: var(--color1);
   border-radius: 10px;
